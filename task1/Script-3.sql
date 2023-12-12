@@ -1,0 +1,1 @@
+select* from task1.persons p where age > 27 order by age desc;

@@ -1,0 +1,1 @@
+select name, surname from task1.persons p where lower(city_of_living) = 'moscow';
