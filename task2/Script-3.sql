@@ -1,0 +1,1 @@
+select product_name from task2.orders o join task2.customers c on o.customer_id = c.id where lower(c.name) = 'alexey';
