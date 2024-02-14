@@ -4,7 +4,7 @@ create table task2.orders(
 	customer_id int,
 	product_name varchar(20) not null,
 	amount int not null,
-	foreign key (customer_id) references task2.customers(customer_id)
+	foreign key (customer_id) references task2.customers(id)
 );
 
 
